@@ -1,10 +1,23 @@
 package data;
+/**
+ * 表示服务是否可以正常的运行
+ *
+ * @author 赵紫萱
+ * @version 1.0 2023/06/13
+ */
 
 public class Data {
-    //表示服务是否可以正常的运行
+    /**
+     * 表示服务是否可以运行
+     */
     public static boolean isRun = true;
-    //表示服务是否可以暂停运行
+    /**
+     * 表示服务是否暂停
+     */
     public static boolean isPush = false;
-    //存储服务器可以获取的静态资源的位置
-    public static String resourcePath = "C:/Users/zzwmr/Desktop/Java/课设展示/";
+
+    /**
+     * 资源路径
+     */
+    public static String resourcePath = "C:/Users/zzwmr/Desktop/课设/样例展示/";
 }
